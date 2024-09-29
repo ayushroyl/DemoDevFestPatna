@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "google";
+  src: url("./assets/fonts/GoogleSansRegular.ttf");
+  font-weight: 400;
+  font-display: block;
+}

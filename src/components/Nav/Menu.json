@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Home",
+    "url": "/#home"
+  },
+  {
+    "title": "Why DevFest",
+    "url": "/#why-DevFest"
+  },
+  {
+    "title": "Speakers",
+    "url": "/#speakers"
+  },
+  {
+    "title": "Sponsors",
+    "url": "/#sponsors"
+  },
+  {
+    "title": "Partners",
+    "url": "/partners"
+  },
+  {
+    "title": "Agenda",
+    "url": "/agenda"
+  },
+  {
+    "title": "Team",
+    "url": "/#team"
+  },
+  {
+    "title": "FAQ",
+    "url": "/#faq"
+  }
+]
