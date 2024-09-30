@@ -18,7 +18,7 @@ const About = () => {
         <div className="flex items-center justify-center p-3 my-4 mx-2 text-lg">
           <p>
             DevFest is an annual decentralized tech conference hosted by Google Developer Groups (GDG) around the globe. 
-            DevFest 2024 marks the 13th year, with the 2nd edition in Patna focusing on knowledge exchange and networking opportunities for the people of Bihar!
+            DevFest 2024 marks the 13th year, with the 3rd edition in Patna focusing on knowledge exchange and networking opportunities for the people of Bihar!
           </p>
         </div>
       </div>
