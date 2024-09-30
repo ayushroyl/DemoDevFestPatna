@@ -10,7 +10,7 @@ const About = () => {
       <div className="md:flex p-3">
         <div className="flex md:w-2/3 justify-center p-3 my-4 mx-2">
           <img
-            src="/assets/DevFestGDGPatna.55c1a548.jpg"
+            src="/assets/DevFestGDGPatna.jpg"
             alt="DevFest"
             className="rounded object-cover"
           />
