@@ -1,29 +1,36 @@
 import React from 'react';
-import '../App.css';
-
+import DevFest from '../../assets/devfestImg.png';
 const About = () => {
   return (
-    <section id="why-DevFest" className="pt-12 m-0.5">
+    <section id="why-DevFest"
+    style={{
+      backgroundColor: "#292929",
+      
+    }}
+  
+    className="pt-12 ">
+    
       <div className="m-4">
-        <h3 className="text-3xl font-extrabold dark:text-white mx-5 text-center">What is DevFest?</h3>
+        <h3 className="text-3xl dark:text-white mx-5 text-center">What is DevFest?</h3>
       </div>
       <div className="md:flex p-3">
         <div className="flex md:w-2/3 justify-center p-3 my-4 mx-2">
           <img
-            src="/assets/DevFestGDGPatna.jpg"
+            src="{DevFest}"
             alt="DevFest"
             className="rounded object-cover"
           />
         </div>
-        <div className="flex items-center justify-center p-3 my-4 mx-2 text-lg">
+        <div className="flex items-center justify-center p-3 text-lg dark:text-white">
           <p>
             DevFest is an annual decentralized tech conference hosted by Google Developer Groups (GDG) around the globe. 
             DevFest 2024 marks the 13th year, with the 3rd edition in Patna focusing on knowledge exchange and networking opportunities for the people of Bihar!
+            DevFest Patna is an initiative of GDG Patna bringing in the 2nd edition 🤩 to people of Bihar with knowledge exchange,learning and networking opportunities!!         
           </p>
         </div>
       </div>
       <div className="grid place-items-center text-4xl text-white">What's there for you? 👀</div>
-      <div className="md:flex p-3">
+      <div className="md:flex p-3 dark:text-white">
         <Feature 
           title="💻 Technical Content" 
           description="Gain insights from top experts and access new technologies."
@@ -56,4 +63,3 @@ const Feature = ({ title, description }) => (
 );
 
 export default About;
-
