@@ -1,7 +1,12 @@
 import React from 'react';
 import AboutImg from '../../assets/DevFestGDGPatna.jpg';
+import Speakers from './Speakers';
+import Sponsers from './Sponsers';
+import Partners from './Partners';
+import Team from './Team';
 const About = () => {
   return (
+    <>
     <section id="why-DevFest"
     style={{
       backgroundColor: "#292929",
@@ -50,6 +55,11 @@ const About = () => {
         />
       </div>
     </section>
+    <Speakers/>
+    <Sponsers />
+    <Partners />
+    <Team />
+    </>
   );
 };
 
