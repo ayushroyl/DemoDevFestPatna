@@ -1,6 +1,4 @@
 import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 import DeveloperLogo from '../../assets/SponsorsLogo/googleDevelopers.png';
 import WebsiteLogo from '../../assets/Icons/websiteLogo.png';
 import LinkedinLogo from '../../assets/Icons/linkedinLogo.svg';
