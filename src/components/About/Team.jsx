@@ -56,7 +56,7 @@ export default function Team() {
 
 function TeamCard(props) {
     return (
-        <div className="ml-4 mr-4 mt-3 mb-3 p-[3px] box-border shadow-[5px, 5px 5px] shadow-black h-[320px] w-[280px] aspect-video bg-[#F2EBDA] border-2 border-[black] rounded-lg flex flex-col justify-between	items-start	" 
+        <div className="ml-4 mr-4 mt-3 mb-3 p-[3px] box-border shadow-[5px, 5px 5px] shadow-black h-[330px] w-[280px] aspect-video bg-[#F2EBDA] border-2 border-[black] rounded-lg flex flex-col justify-between	items-start	" 
           style = {{
               boxShadow: "6px 6px 0px 0px #F9AA00",
           }} >
@@ -72,7 +72,7 @@ function TeamCard(props) {
                 </div>
             </div>
             <div className="w-[280px] h-[80px] pl-[40px] pr-[40px]">
-                <ul className="h-[100%] w-[100%] flex justify-evenly items-center" >
+                <ul className="h-[100%] w-[100%] flex justify-center gap-5 items-center" >
                     {/* <li className="h-[60px] w-[60px] p-1 rounded-full"  ><a href=""><img className='bg-white rounded-full' src={GitLogo} alt="hey" /></a></li> */}
                     <li className="h-[60px] w-[60px] p-1 rounded-full"  ><a href=""><img className='bg-white rounded-full' src={LinkedinLogo} alt="hey" /></a></li>
                     <li className="h-[60px] w-[60px] p-1 rounded-full"  ><a href=""><img src={TwitterLogo} alt="hey" /></a></li>

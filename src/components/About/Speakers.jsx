@@ -30,27 +30,27 @@ export default  function Speaker() {
 function SpeakersCard(props) {
 
   return (
-      <div className="ml-4 mr-4 mt-3 mb-3 p-[3px] box-border shadow-[5px, 5px 5px] shadow-black h-[400px] w-[310px] aspect-video bg-[#F2EBDA] border-2 border-[black] rounded-lg flex flex-col justify-between	items-start	" 
+      <div className="ml-4 mr-4 mt-3 mb-3 p-[3px] box-border shadow-[5px, 5px 5px] shadow-black  sm:h-[380px] sm:w-[310px] h-[350px] w-[270px] aspect-video bg-[#F2EBDA] border-2 border-[black] rounded-lg flex flex-col justify-between	items-start	box-border	" 
         style = {{
             boxShadow: "6px 6px 0px 0px #F9AA00",
         }} >
-          <div className="w-[300px] h-[300px] overflow-hidden flex justify-start items-center	flex-col">
+          <div className="sm:w-[300px] sm:h-[320px] w-[260px] h-[230px] overflow-hidden flex justify-start items-center	flex-col">
               <img 
               src={props.img} 
               alt="" 
-              className="w-[150px] h-[150px] rounded-full mt-[20px] border-4 border-[#F9AA00]"
+              className="sm:w-[150px] sm:h-[150px] h-[115px] w-[115px] rounded-full mt-[20px] border-4 border-[#F9AA00]"
               />
               <div className='w-[100%] text-center '>
-                <p className='text-black text-2xl font-bold pt-[5px]'>Anish Kumar</p>
-                <p>Co-Founder of Dynopii</p>
-                <p>Google Developer Expert</p>
-                <p>in GCP, TEDx Speaker</p>
+                <p className='text-black sm:text-2xl text-xl font-bold pt-[5px]'>Anish Kumar</p>
+                <p className="text-sm">Co-Founder of Dynopii</p>
+                <p className="text-sm">Google Developer Expert</p>
+                <p className="text-sm">in GCP, TEDx Speaker</p>
               </div>
           </div>
-          <div className="w-[300px] h-[80px] pl-[40px] pr-[40px]">
-              <ul className="h-[100%] w-[100%] flex justify-evenly items-center" >
-                <li className="h-[60px] w-[60px] p-1 rounded-full"  ><a href=""><img className='bg-white rounded-full' src={LinkedinLogo} alt="hey" /></a></li>
-                <li className="h-[60px] w-[60px] p-1 rounded-full"  ><a href=""><img src={TwitterLogo} alt="hey" /></a></li>
+          <div className="w-[100%] h-[80px] flex">
+              <ul className="h-[100%] w-[100%] flex justify-center gap-5 items-center" >
+                <li className="sm:h-[60px] sm:w-[60px] h-[45px] w-[45px] p-1 rounded-full"  ><a href=""><img className='bg-white rounded-full' src={LinkedinLogo} alt="hey" /></a></li>
+                <li className="sm:h-[60px] sm:w-[60px] h-[45px] w-[45px] p-1 rounded-full"  ><a href=""><img src={TwitterLogo} alt="hey" /></a></li>
               </ul>
           </div>
       </div>
