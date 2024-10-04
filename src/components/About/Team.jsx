@@ -56,11 +56,11 @@ export default function Team() {
 
 function TeamCard(props) {
     return (
-        <div className="ml-8 mt-3 mb-3 p-[3px] box-border shadow-[5px, 5px 5px] shadow-black h-[310px] w-[280px] aspect-video bg-[#F2EBDA] border-2 border-[black] rounded-lg flex flex-col justify-between	items-start	" 
+        <div className="ml-4 mr-4 mt-3 mb-3 p-[3px] box-border shadow-[5px, 5px 5px] shadow-black h-[320px] w-[280px] aspect-video bg-[#F2EBDA] border-2 border-[black] rounded-lg flex flex-col justify-between	items-start	" 
           style = {{
               boxShadow: "6px 6px 0px 0px #F9AA00",
           }} >
-            <div className="w-[280px] h-[300px] overflow-hidden flex justify-start items-center	flex-col">
+            <div className="w-[280px] h-[320px] overflow-hidden flex justify-start items-center	flex-col">
                 <img 
                 src={props.img} 
                 alt="" 

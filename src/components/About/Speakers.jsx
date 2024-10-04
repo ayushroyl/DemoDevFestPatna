@@ -14,7 +14,7 @@ export default  function Speaker() {
             }}>
               Call For Speakers
             </a>
-            <div className="w-screen pl-8[20%]] pt-[20px] flex flex-wrap justify-center ">
+            <div className="w-screen pt-[20px] flex flex-wrap justify-center item-center">
               <SpeakersCard img={AnishKumar}/>
               <SpeakersCard img={AnishKumar}/>
               <SpeakersCard img={AnishKumar}/>
@@ -30,7 +30,7 @@ export default  function Speaker() {
 function SpeakersCard(props) {
 
   return (
-      <div className="ml-8 mt-3 mb-3 p-[3px] box-border shadow-[5px, 5px 5px] shadow-black h-[400px] w-[310px] aspect-video bg-[#F2EBDA] border-2 border-[black] rounded-lg flex flex-col justify-between	items-start	" 
+      <div className="ml-4 mr-4 mt-3 mb-3 p-[3px] box-border shadow-[5px, 5px 5px] shadow-black h-[400px] w-[310px] aspect-video bg-[#F2EBDA] border-2 border-[black] rounded-lg flex flex-col justify-between	items-start	" 
         style = {{
             boxShadow: "6px 6px 0px 0px #F9AA00",
         }} >
