@@ -67,22 +67,22 @@ const WhyDevFest = () => {
           {
             title: "💻 Technical Content",
             description: "Gain insights from top experts and access new technologies.",
-            color: "#4C86F9"
+            color: "#E1432E"
           },
           {
             title: "🤝 Networking",
             description: "Meet and network with like-minded people from the tech community.",
-            color: "#49A84C"
+            color: "#F6BB02"
           },
           {
             title: "🎉 Fun Activities",
             description: "Participate in fun activities and win exciting prizes.",
-            color: "#F6BB02"
+            color: "#49A84C"
           },
           {
             title: "🌐 Knowledge Sharing",
             description: "Learn from community-led sessions and expand your knowledge.",
-            color: "#E1432E"
+            color: "#4C86F9"
           },
         ].map((feature, index) => (
           <div
