@@ -1,7 +1,6 @@
 import React from 'react';
-import LinkedinLogo from '../../assets/Icons/linkedinLogo.svg';
-import TwitterLogo from '../../assets/Icons/twitterLogo.png';
-import GitLogo from '../../assets/Icons/gitLogo.png';
+import { FaTwitter } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 import AnuragVerma from '../../assets/img/team/AnuragVerma.jpeg'
 import BarkhaAgarwal from '../../assets/img/team/BarkhaAgarwal.jpeg'
 import AbhimanyuYadav from '../../assets/img/team/Abhimanyu.jpg'
@@ -22,29 +21,29 @@ export default function Team() {
     <div id="team" className=" w-screen bg-[red] pt-12 bg-white flex items-center flex-col">
         <h1 className="text-black text-center mt-3 mb-5 text-5xl font-bold">Meet Out Team</h1>
         <div className="w-screen pl-8[20%]] pt-[20px] pb-[20px] flex flex-wrap justify-center ">
-            <TeamCard img={AnuragVerma} name="Anurag Verma" role="Organizer"/>
-            <TeamCard img={BarkhaAgarwal} name="Barkha Agarwal" role="Co-Organizer"/>
+            <TeamCard img={AnuragVerma} name="Anurag Verma" role="Organizer" linkedInUrl="https://www.linkedin.com/in/anuragver/" twitterUrl="https://twitter.com/anuragceg`"/>
+            <TeamCard img={BarkhaAgarwal} name="Barkha Agarwal" role="Co-Organizer" linkedInUrl="" twitterUrl=""/>
         </div>
         <h1 className="text-black text-center mt-3 mb-5 text-5xl font-bold">Tech Team</h1>
         <div className="w-screen pl-8[20%]] pt-[20px] pb-[20px] flex flex-wrap justify-center ">
-            <TeamCard img={AbhimanyuYadav} name="Abhimanyu Yadav" role="Technical Lead"/>
-            <TeamCard img={BobbyKumar} name="Bobby Kumar" role="Technical Co-Lead"/>
-            <TeamCard img={VishhwajeetKumar} name="Vishwajeet Kumar" role="Tech Team"/>
+            <TeamCard img={AbhimanyuYadav} name="Abhimanyu Yadav" role="Technical Lead" linkedInUrl="" twitterUrl=""/>
+            <TeamCard img={BobbyKumar} name="Bobby Kumar" role="Technical Co-Lead" linkedInUrl="" twitterUrl=""/>
+            <TeamCard img={VishhwajeetKumar} name="Vishwajeet Kumar" role="Tech Team" linkedInUrl="" twitterUrl=""/>
         </div>
         <h1 className="text-black text-center mt-3 mb-5 text-5xl font-bold">Operation Team</h1>
         <div className="w-screen pl-8[20%]] pt-[20px] pb-[20px] flex flex-wrap justify-center ">
-            <TeamCard img={HarshKapoor} name="Harsh Kapoor" role="Operation Lead"/>
-            <TeamCard img={AmikarAnanya} name="Amikar Ananya" role="Operation Co-Lead"/>
-            <TeamCard img={TanyaGupta} name="Tanya Gupta" role="Operation Team"/>
-            <TeamCard img={MohammadZaidKhan} name="Mohammad Zaid Khan" role="Operation Team"/>
-            <TeamCard img={AshishKumar} name="Ashish Kumar" role="Operation Team"/>
+            <TeamCard img={HarshKapoor} name="Harsh Kapoor" role="Operation Lead" linkedInUrl="" twitterUrl=""/>
+            <TeamCard img={AmikarAnanya} name="Amikar Ananya" role="Operation Co-Lead" linkedInUrl="" twitterUrl=""/>
+            <TeamCard img={TanyaGupta} name="Tanya Gupta" role="Operation Team" linkedInUrl="" twitterUrl=""/>
+            <TeamCard img={MohammadZaidKhan} name="Mohammad Zaid Khan" role="Operation Team" linkedInUrl="" twitterUrl=""/>
+            <TeamCard img={AshishKumar} name="Ashish Kumar" role="Operation Team" linkedInUrl="" twitterUrl=""/>
         </div>
         <h1 className="text-black text-center mt-3 mb-5 text-5xl font-bold">Design Team</h1>
         <div className="w-screen pl-8[20%]] pt-[20px] pb-[20px] flex flex-wrap justify-center ">
-            <TeamCard img={AsifEkhlaque} name="AsifEkhlaque" role="Design Lead"/>
-            <TeamCard img={Sakshi} name="Sakhshi" role="Design Team"/>
-            <TeamCard img={NishantKumar} name="NishantKumar" role="Design Team"/>
-            <TeamCard img={KhushbooGupta} name="Khushboo Gupta" role="Design Team"/>
+            <TeamCard img={AsifEkhlaque} name="AsifEkhlaque" role="Design Lead" linkedInUrl="" twitterUrl=""/>
+            <TeamCard img={Sakshi} name="Sakhshi" role="Design Team" linkedInUrl="" twitterUrl=""/>
+            <TeamCard img={NishantKumar} name="NishantKumar" role="Design Team" linkedInUrl="" twitterUrl=""/>
+            <TeamCard img={KhushbooGupta} name="Khushboo Gupta" role="Design Team" linkedInUrl="" twitterUrl=""/>
         </div>
     </div>
   )
@@ -74,8 +73,9 @@ function TeamCard(props) {
             <div className="w-[280px] h-[80px] pl-[40px] pr-[40px]">
                 <ul className="h-[100%] w-[100%] flex justify-center gap-5 items-center" >
                     {/* <li className="h-[60px] w-[60px] p-1 rounded-full"  ><a href=""><img className='bg-white rounded-full' src={GitLogo} alt="hey" /></a></li> */}
-                    <li className="h-[60px] w-[60px] p-1 rounded-full"  ><a href=""><img className='bg-white rounded-full' src={LinkedinLogo} alt="hey" /></a></li>
-                    <li className="h-[60px] w-[60px] p-1 rounded-full"  ><a href=""><img src={TwitterLogo} alt="hey" /></a></li>
+                    <li className="h-[60px] w-[60px] p-1 rounded-full flex justify-center items-center "  ><a className="bg-[#1B83BA] h-[52px] w-[52px] flex justify-center items-center rounded-full" href={props.linkedInUrl}><FaLinkedinIn className=" text-3xl text-white"/></a></li>
+                    <li className="h-[60px] w-[60px] p-1 rounded-full flex justify-center items-center"  ><a className="bg-[#179CF0] h-[52px] w-[52px] flex justify-center items-center rounded-full" href={props.twitterUrl}><FaTwitter className=" text-3xl text-white" /></a></li>
+
                 </ul>
             </div>
         </div>

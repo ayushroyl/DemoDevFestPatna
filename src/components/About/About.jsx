@@ -67,25 +67,29 @@ const WhyDevFest = () => {
           {
             title: "💻 Technical Content",
             description: "Gain insights from top experts and access new technologies.",
+            color: "#4C86F9"
           },
           {
             title: "🤝 Networking",
             description: "Meet and network with like-minded people from the tech community.",
+            color: "#49A84C"
           },
           {
             title: "🎉 Fun Activities",
             description: "Participate in fun activities and win exciting prizes.",
+            color: "#F6BB02"
           },
           {
             title: "🌐 Knowledge Sharing",
             description: "Learn from community-led sessions and expand your knowledge.",
+            color: "#E1432E"
           },
         ].map((feature, index) => (
           <div
             key={index}
             className="w-full bg-white shadow-lg rounded-xl p-8 transform transition-transform duration-500 hover:scale-105 border-2 border-black"
             style = {{
-              boxShadow: "8px 8px 0px 0px #F8A900",
+              boxShadow: `8px 8px 0px 0px ${feature.color}`
             }}
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
