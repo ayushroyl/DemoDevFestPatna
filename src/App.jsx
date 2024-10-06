@@ -13,15 +13,9 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <Nav />
         <Routes>
-          <Route path="/" element={<><Home /><About /></>} />
+          <Route path="/" element={<About />} />
         </Routes>
-        <Speakers />
-        <Sponsers />
-        <Partners />
-        <Team />
-        <Footer />
       </BrowserRouter>
     </>
   );
