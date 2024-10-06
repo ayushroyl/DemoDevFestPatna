@@ -26,7 +26,7 @@ const WhyDevFest = () => {
       </div>
 
       {/* Enhanced Image and Description Section */}
-      <div className="flex flex-col lg:flex-row items-center justify-between max-w-5xl mx-auto ml-5 mr-5 bg-[#F2EBDA] shadow-lg overflow-hidden p-4 md:p-8 mt-6 border-2 border-black"
+      <div className="flex flex-col lg:flex-row items-center rounded-lg justify-between max-w-5xl mx-auto ml-5 mr-5 bg-[#F2EBDA] shadow-lg overflow-hidden p-4 md:p-8 mt-6 border-2 border-black"
       style = {{
         boxShadow: "8px 8px 0px 0px black",
       }}>
