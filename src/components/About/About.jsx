@@ -95,7 +95,12 @@ const WhyDevFest = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3 * index, duration: 0.8 }}
           >
-            <p className="text-[24px] font-bold text-[#F8A900]">{feature.title}</p>
+            <p className="text-[24px] font-bold"
+            style = {{
+              color: `${feature.color}`
+            }}
+            >{feature.title}
+            </p>
             <p className="mt-5 text-[18px] font-medium text-black-300 leading-relaxed">
               {feature.description}
             </p>
