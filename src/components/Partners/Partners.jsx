@@ -47,9 +47,9 @@ export default function Partners(){
             </div>
             <div className="sm:w-[300px] sm:h-[80px] w-[260px]">
                 <ul className="h-[80px] w-[100%] flex justify-evenly items-center" >
-                  <li className="h-[60px] w-[60px] p-1 rounded-full flex justify-center items-center "  ><a className="bg-[#0A9D58] h-[52px] w-[52px] flex justify-center items-center rounded-full" href=""><AiOutlineGlobal className=" text-4xl text-white"/></a></li>
-                  <li className="h-[60px] w-[60px] p-1 rounded-full flex justify-center items-center "  ><a className="bg-[#1B83BA] h-[52px] w-[52px] flex justify-center items-center rounded-full" href=""><FaLinkedinIn className=" text-3xl text-white"/></a></li>
-                  <li className="h-[60px] w-[60px] p-1 rounded-full flex justify-center items-center"  ><a className="bg-[#179CF0] h-[52px] w-[52px] flex justify-center items-center rounded-full" href=""><FaTwitter className=" text-3xl text-white" /></a></li>
+                  <li className="h-[60px] w-[60px] p-1 rounded-full flex justify-center items-center "  ><a className=" h-[52px] w-[52px] flex justify-center items-center rounded-full" href=""><AiOutlineGlobal className=" text-4xl text-black"/></a></li>
+                  <li className="h-[60px] w-[60px] p-1 rounded-full flex justify-center items-center "  ><a className=" h-[52px] w-[52px] flex justify-center items-center rounded-full" href=""><FaLinkedinIn className=" text-3xl text-black"/></a></li>
+                  <li className="h-[60px] w-[60px] p-1 rounded-full flex justify-center items-center"  ><a className=" h-[52px] w-[52px] flex justify-center items-center rounded-full" href=""><FaTwitter className=" text-3xl text-black" /></a></li>
                 </ul>
             </div>
         </div> 

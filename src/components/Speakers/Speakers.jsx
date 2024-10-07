@@ -28,27 +28,27 @@ export default  function Speaker() {
                 {
                   "img": `${AnishKumar}`,
                   "name": "Anish Kumar",
-                  "p1": "",
-                  "p2": "",
-                  "p3": "",
+                  "p1": "Co-Founder of Dynopii",
+                  "p2": "Google Developer Expert",
+                  "p3": "in GCP, TEDx Speaker",
                   "linkedInUrl": "",
                   "twitterUrl": ""
                 },
                 {
                   "img": `${AnishKumar}`,
                   "name": "Anish Kumar",
-                  "p1": "",
-                  "p2": "",
-                  "p3": "",
+                  "p1": "Co-Founder of Dynopii",
+                  "p2": "Google Developer Expert",
+                  "p3": "in GCP, TEDx Speaker",
                   "linkedInUrl": "",
                   "twitterUrl": ""
                 },
                 {
                   "img": `${AnishKumar}`,
                   "name": "Anish Kumar",
-                  "p1": "",
-                  "p2": "",
-                  "p3": "",
+                  "p1": "Co-Founder of Dynopii",
+                  "p2": "Google Developer Expert",
+                  "p3": "in GCP, TEDx Speaker",
                   "linkedInUrl": "",
                   "twitterUrl": ""
                 }
@@ -72,8 +72,8 @@ export default  function Speaker() {
                     </div>
                     <div className="w-[100%] h-[80px] flex">
                         <ul className="h-[100%] w-[100%] flex justify-center gap-5 items-center" >
-                        <li className="h-[60px] w-[60px] p-1 rounded-full flex justify-center items-center "  ><a className="bg-[#1B83BA] h-[52px] w-[52px] flex justify-center items-center rounded-full" href={feature.linkedInUrl}><FaLinkedinIn className=" text-3xl text-white"/></a></li>
-                        <li className="h-[60px] w-[60px] p-1 rounded-full flex justify-center items-center"  ><a className="bg-[#179CF0] h-[52px] w-[52px] flex justify-center items-center rounded-full" href={feature.twitterUrl}><FaTwitter className=" text-3xl text-white" /></a></li>
+                        <li className="h-[60px] w-[60px] p-1 rounded-full flex justify-center items-center "  ><a className=" h-[52px] w-[52px] flex justify-center items-center rounded-full" href={feature.linkedInUrl}><FaLinkedinIn className=" text-3xl text-black"/></a></li>
+                        <li className="h-[60px] w-[60px] p-1 rounded-full flex justify-center items-center"  ><a className=" h-[52px] w-[52px] flex justify-center items-center rounded-full" href={feature.twitterUrl}><FaTwitter className=" text-3xl text-black" /></a></li>
                         </ul>
                     </div>
                 </div>
